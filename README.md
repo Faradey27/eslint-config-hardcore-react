@@ -1,4 +1,4 @@
-##Hardcode eslint config
+##Hardcore eslint config
 
 # eslint-react-config
 
