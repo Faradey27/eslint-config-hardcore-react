@@ -55,7 +55,7 @@ module.exports = {
       'ignoreComments': false
     }],
     // specify the maximum depth callbacks can be nested
-    'max-nested-callbacks': { "max": 3 },
+    'max-nested-callbacks': ["error", 3],
     // restrict the number of statements per line
     // http://eslint.org/docs/rules/max-statements-per-line
     'max-statements-per-line': [2, { 'max': 1 }],
