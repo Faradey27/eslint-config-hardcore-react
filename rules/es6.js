@@ -75,13 +75,6 @@ module.exports = {
     'prefer-template': 2,
     // disallow generator functions that do not have yield
     'require-yield': 2,
-    // import sorting
-    // http://eslint.org/docs/rules/sort-imports
-    'sort-imports': ["error", {
-        "ignoreCase": false,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
-    }],
     // enforce usage of spacing in template strings
     // http://eslint.org/docs/rules/template-curly-spacing
     'template-curly-spacing': 2,

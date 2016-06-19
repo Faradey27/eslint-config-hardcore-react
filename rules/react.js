@@ -123,7 +123,7 @@ module.exports = {
     'react/prop-types': [2, { 'ignore': [], 'customValidators': [] }],
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-    'react/react-in-jsx-scope': 2,
+    'react/react-in-jsx-scope': 0,
     // Restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
     'react/require-extension': [0, { 'extensions': ['.jsx'] }],
