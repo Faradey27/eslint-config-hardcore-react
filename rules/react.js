@@ -1,6 +1,6 @@
 module.exports = {
   'plugins': [
-    'react'
+    'react',
   ],
   'parserOptions': {
     'ecmaFeatures': {
@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   'ecmaFeatures': {
-    'jsx': true
+    'jsx': true,
   },
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
@@ -61,7 +61,7 @@ module.exports = {
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 2,
-    'react/no-unused-prop-types': 2,
+    'react/prop-types': 2,
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': 2,
@@ -85,13 +85,13 @@ module.exports = {
     'react/no-danger': 2,
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [1, { 'react': '0.14.0' }],
+    'react/no-deprecated': 1,
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': 2,
     // Prevent usage of setState in componentDidUpdate
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
+    'react/no-did-update-set-state': 2,
     // Prevent direct mutation of this.state
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
     'react/no-direct-mutation-state': 2,
@@ -144,15 +144,8 @@ module.exports = {
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'everything-else',
         '/^render.+$/',
-        'render'
+        'render',
       ],
-    }],
-    // Prevent missing parentheses around multilines JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-    'react/wrap-multilines': [2, {
-      'declaration': true,
-      'assignment': true,
-      'return': true
     }],
     // Require that the first prop in a JSX element be on a new line when the element is multiline
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
@@ -167,12 +160,12 @@ module.exports = {
   'settings': {
     'import/resolver': {
       'node': {
-        'extensions': ['.js', '.jsx', '.json']
-      }
+        'extensions': ['.js', '.jsx', '.json'],
+      },
     },
     'react': {
       'pragma': 'React',
-      'version': '0.14'
+      'version': '0.14',
     },
-  }
+  },
 };
