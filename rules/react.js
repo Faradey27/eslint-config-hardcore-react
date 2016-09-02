@@ -47,7 +47,7 @@ module.exports = {
     'react/jsx-max-props-per-line': [2, { 'maximum': 1 }],
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': [2, {
+    'react/jsx-no-bind': [0, {
       'ignoreRefs': true,
       'allowArrowFunctions': true,
       'allowBind': false,
@@ -61,6 +61,7 @@ module.exports = {
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 2,
+    'react/no-unused-prop-types': 2,
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': 2,
@@ -76,9 +77,6 @@ module.exports = {
       'ignoreCase': false,
       'callbacksLast': true,
     }],
-    // Prevent React to be incorrectly marked as unused
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': [2, { 'pragma': 'React' }],
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': 2,
@@ -105,7 +103,7 @@ module.exports = {
     'react/no-multi-comp': [2, { 'ignoreStateless': true }],
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
-    'react/no-set-state': 2,
+    'react/no-set-state': 0,
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
     'react/no-string-refs': 2,
@@ -117,7 +115,7 @@ module.exports = {
     'react/prefer-es6-class': [2, 'always'],
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': 2,
+    'react/prefer-stateless-function': 0,
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
     'react/prop-types': [2, { 'ignore': [], 'customValidators': [] }],

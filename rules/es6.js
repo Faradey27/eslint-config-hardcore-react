@@ -89,12 +89,12 @@ module.exports = {
     'import/default': 0,
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    'import/extensions': [2, 'never'],
+    'import/extensions': [0, 'never'],
     // ensure named imports coupled with named exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
     'import/named': 2,
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
-    'import/namespace': 2,
+    'import/namespace': 0,
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [2, { 'devDependencies': false }],
@@ -103,7 +103,7 @@ module.exports = {
     'import/no-unresolved': [2, { 'commonjs': true }],
     // do not allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
-    'import/no-named-as-default': 2,
+    'import/no-named-as-default': 0,
     // disallow require()
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
     'import/no-commonjs': 2,
@@ -118,13 +118,13 @@ module.exports = {
     'import/no-duplicates': 2,
     // disallow use of jsdoc-marked-deprecated imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-    'import/no-deprecated': 2,
+    'import/no-deprecated': 0,
     // disallow namespace imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
-    'import/no-namespace': 2,
+    'import/no-namespace': 0,
     // warn on accessing default export property names that are also named exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
-    'import/no-named-as-default-member': 1,
+    'import/no-named-as-default-member': 0,
     // No Node.js builtin modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
     'import/no-nodejs-modules': 1,

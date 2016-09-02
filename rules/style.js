@@ -25,7 +25,7 @@ module.exports = {
     'func-style': 2,
     // this option enforces minimum and maximum identifier lengths
     // (variable names, property names etc.)
-    'id-length': 2,
+    'id-length': 0,
     // this option sets a specific tab width for your code
     // http://eslint.org/docs/rules/indent
     'indent': [2, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
@@ -76,7 +76,7 @@ module.exports = {
     // disallow use of the continue statement
     'no-continue': 2,
     // disallow comments inline after code
-    'no-inline-comments': 2,
+    'no-inline-comments': 0,
     // disallow if as the only statement in an else block
     'no-lonely-if': 2,
     // disallow mixed spaces and tabs for indentation
@@ -85,7 +85,7 @@ module.exports = {
     'no-multiple-empty-lines': [2, { 'max': 2, 'maxEOF': 1 }],
     // disallow negated conditions
     // http://eslint.org/docs/rules/no-negated-condition
-    'no-negated-condition': 2,
+    'no-negated-condition': 0,
     // disallow nested ternary expressions
     'no-nested-ternary': 2,
     // disallow use of the Object constructor

@@ -62,7 +62,7 @@ module.exports = {
     // disallow use of eval()-like methods
     'no-implied-eval': 2,
     // disallow this keywords outside of classes or class-like objects
-    'no-invalid-this': 2,
+    'no-invalid-this': 0,
     // disallow usage of __iterator__ property
     'no-iterator': 2,
     // disallow use of labels for anything other then loops and switches
@@ -107,10 +107,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': [
       2,
-      'DebuggerStatement',
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
+      "DebuggerStatement",
+      "LabeledStatement",
+      "WithStatement",
     ],
     // disallow use of assignment in return statement
     'no-return-assign': 2,
