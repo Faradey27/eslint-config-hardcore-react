@@ -47,7 +47,7 @@ module.exports = {
     // enforces empty lines around comments
     'lines-around-comment': 1,
     // disallow mixed 'LF' and 'CRLF' as linebreaks
-    'linebreak-style': 2,
+    'linebreak-style': [0, "unix"],
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
     'max-len': [2, 128, 2, {

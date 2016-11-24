@@ -4,6 +4,7 @@ module.exports = {
     './rules/es6',
     './rules/react',
     './rules/react-a11y',
+    './rules/fp',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 7,

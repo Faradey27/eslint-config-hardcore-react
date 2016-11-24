@@ -15,6 +15,11 @@ module.exports = {
     jasmine: false
   },
   ecmaFeatures: {},
-  globals: {},
+  globals: {
+    "describe": true,
+    "it": true,
+    "path": true,
+    "ga": true
+  },
   rules: {}
 };
