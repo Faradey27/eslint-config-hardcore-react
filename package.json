@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint config for react apps",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,5 @@
     "tape": "^4.5.1"
   },
   "peerDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-plugin-import": "^2.0.0"
   }
 }
