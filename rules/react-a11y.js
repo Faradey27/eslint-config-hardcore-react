@@ -3,8 +3,10 @@ module.exports = {
     'jsx-a11y',
     'react'
   ],
-  'ecmaFeatures': {
-    'jsx': true
+  parserOptions: {
+    'ecmaFeatures': {
+      'jsx': true
+    },
   },
   'rules': {
     // Require ARIA roles to be valid and non-abstract
