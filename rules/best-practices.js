@@ -73,7 +73,7 @@ module.exports = {
     'no-loop-func': 2,
     // http://eslint.org/docs/rules/no-magic-numbers
     'no-magic-numbers': [2, {
-      'ignore': [],
+      'ignore': [0, 1, -1, 200, 404, 500, 401, 300, 400, 304],
       'ignoreArrayIndexes': true,
       'enforceConst': true,
       'detectObjects': false,

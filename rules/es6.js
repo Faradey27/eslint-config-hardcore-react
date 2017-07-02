@@ -121,7 +121,7 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     // No Node.js builtin modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
-    'import/no-nodejs-modules': 1,
+    'import/no-nodejs-modules': 0,
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
     'import/order': [0, {

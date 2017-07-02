@@ -10,7 +10,7 @@ module.exports = {
     'callback-return': 2,
     // require all requires be top-level
     // http://eslint.org/docs/rules/global-require
-    'global-require': 2,
+    'global-require': 0,
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': 2,
     // disallow mixing regular variable and require declarations
