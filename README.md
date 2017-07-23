@@ -25,5 +25,13 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   }
 ```
 
+## What are the main features of this lint config?
+- no mutations, no let
+- sorting of props, attributes, etc.
+- check of imports(no import for not installed libraries)
+- strict rules for everything(formats, spaces, names, callbacks, etc.)
+- all airbnb recommended rules
+- compatibility with eslint 4.x
+
 ## Based on airbnb config
 [airbnb](https://github.com/airbnb/javascript)
