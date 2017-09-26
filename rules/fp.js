@@ -12,6 +12,8 @@ module.exports = {
         "commonjs": true,
         "exceptions": [
           {"property": "propTypes"},
+          {"property": "defaultProps"},
+          {"property": "contextTypes"},
           {"object": "window"},
           {"object": "global"},
           {"object": "System"},

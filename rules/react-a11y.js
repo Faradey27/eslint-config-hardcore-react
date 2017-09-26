@@ -51,25 +51,21 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-focus.md
     'jsx-a11y/onclick-has-focus': 0,
 
-    // require things with onClick to have an aria role
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-role.md
-    'jsx-a11y/onclick-has-role': 0,
-
     // Enforce that elements with ARIA roles must have all required attributes
     // for that role.
     // TODO: evaluate
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-has-required-aria-props.md
-    'jsx-a11y/role-has-required-aria-props': 0,
+    'jsx-a11y/role-has-required-aria-props': 1,
 
     // Enforce that elements with explicit or implicit roles defined contain
     // only aria-* properties supported by that role.
     // TODO: evaluate
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-supports-aria-props.md
-    'jsx-a11y/role-supports-aria-props': 0,
+    'jsx-a11y/role-supports-aria-props': 1,
 
     // Enforce tabIndex value is not greater than zero.
     // TODO: evaluate
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md
-    'jsx-a11y/tabindex-no-positive': 0,
+    'jsx-a11y/tabindex-no-positive': 1,
   },
 };

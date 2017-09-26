@@ -72,8 +72,8 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': [2, {
-      'ignore': [0, 1, -1, 200, 404, 500, 401, 300, 400, 304],
+    'no-magic-numbers': [1, {
+      'ignore': [0, 1, -1, 2, 7, 24, 60, 30, 31, 200, 404, 500, 401, 300, 400, 304],
       'ignoreArrayIndexes': true,
       'enforceConst': true,
       'detectObjects': false,
